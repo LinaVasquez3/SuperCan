@@ -1,0 +1,53 @@
+#info {
+    background: #fc9eff;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+#info h3 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#info h4 {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-can {
+    margin: 20px;
+    width: 100%;
+}
+
+.info-can img {
+    width: 60%;
+    height: 80%;
+    
+}
+
+@media (min-width:480px) {
+    .info-can {
+        width: 100%; 
+    }
+
+    .info-can img {
+        width: 60%;
+        height: 80%;
+        
+    }
+}
+
+@media (min-width:700px) {
+    .info-can {
+        margin:0px;
+        width: 33%;
+    }
+}
